@@ -27,6 +27,6 @@ general description of the library
 **` function getSong(letter) `**
 #
 #### Returns the average number of popularity list 
-###### @ return {number} - average number of popularity list 
+###### @return {number} - average value of popularity list 
 **` function getAvgPopularity() `**
 #
