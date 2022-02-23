@@ -10,8 +10,8 @@ general description of the library
 
 #### Returns lists of tracks that are between min and max popularity
 ###### @param min, max {number} - popularity rating must be two integers, 
-###### @param {number} - must be an integer less than the second integer 
-###### @param {number} - must be an integer greater than the first integer
+###### @param min {number} - must be an integer less than the second integer 
+###### @param max {number} - must be an integer greater than the first integer
 ###### @return matches {list} - the list of track names that meet the condition 
 **` function getNameByPop (min, max)`**
 #
