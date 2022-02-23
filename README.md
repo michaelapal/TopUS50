@@ -8,20 +8,20 @@ general description of the library
 **` function getPopularity(pop) `**
 #
 
-#### Returns tracks that are between min and max popularity
-###### @param min, max {number} - popularity rating must be two integers 
-###### @return matches {list} - the list of track names 
+#### Returns lists of tracks that are between min and max popularity
+###### @param min, max {number} - popularity rating must be two integers, the first integer must be less than second integer  
+###### @return matches {list} - the list of track names that meet the condition 
 **` function getNameByPop (min, max)`**
 #
 
-#### Returns the artist at the given rank
-###### @param rank {number} - the position the artist is ranked must be an integer between 0 and 50 
-###### @return options {list} - the name of the artisit from that rank 
+#### Returns the name of an artist through rank 
+###### @param rank {number} - the position the artist is ranked must be an integer between 1 and 50 
+###### @return options {list} - the name of the artist that matches given rank 
 **` function getArtist(rank) `**
 #
-#### Returns names of songs from a given letter 
-###### @param letter {substring} - the first letter of the song name must be capitalized 
-###### @return songs {list} - the name of the songs that begin with that letter 
+#### Returns list of track names by the first letter of the song 
+###### @param letter {substring} - keep strings in a list that begin with a given letter
+###### @return songs {list} - list of track names, each beginning with the same first letter 
 **` function getSong(letter) `**
 #
 #### Returns the average number of popularity list 
